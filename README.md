@@ -23,6 +23,24 @@ The simulated comment section is built with **RESTful** routes and it implements
 
 `DELETE`: deletes resources (the client usually must be authenticated to perform DELETE).
 
+
+## 💻 Setup
+
+1️⃣ Run the command below to install packages used in the project:
+```sh
+
+$ npm install
+
+```
+2️⃣ Install nodemon globally so that it'll restart the application when changes are made to the project:
+```sh
+
+$ npm install -g nodemon
+
+```
+
+
+3️⃣ Run `nodemon app` in the terminal to start the server, and connect to `http//localhost:3000` in the web browser.
 ## 👏 Credits
 
-This project is based on the <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap Documentation<a/> and the Bootstrap tutorial of <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp</a> by Colt Steele.
+This project is based on the <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap Documentation<a/> and the REST tutorial of <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp</a> by Colt Steele.
